@@ -1,0 +1,23 @@
+﻿빌드 시작: 2015-11-11 오후 11:28:12
+     1>2 노드의 "C:\Users\sim\Desktop\Fileclient\Fileclient.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\Fileclient.pch" /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt FileclientDlg.cpp
+         FileclientDlg.cpp
+     1>c:\users\sim\desktop\fileclient\fileclientdlg.cpp(249): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\sim\desktop\fileclient\fileclientdlg.cpp(304): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\program files (x86)\microsoft visual studio 11.0\vc\include\stdio.h(218) : 'fopen' 선언을 참조하십시오.
+     1>c:\users\sim\desktop\fileclient\fileclientdlg.cpp(306): warning C4101: 'msg' :참조되지 않은 지역 변수입니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\sim\Desktop\Fileclient\Debug\Fileclient.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\sim\Desktop\Fileclient\Debug\Fileclient.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\sim\Desktop\Fileclient\Debug\Fileclient.lib" /MACHINE:X86 Debug\Fileclient.res
+         Debug\Fileclient.obj
+         Debug\FileclientDlg.obj
+         Debug\Login.obj
+         Debug\MySocket.obj
+         Debug\stdafx.obj
+         Fileclient.vcxproj -> C:\Users\sim\Desktop\Fileclient\Debug\Fileclient.exe
+     1>"C:\Users\sim\Desktop\Fileclient\Fileclient.vcxproj" 프로젝트를 빌드했습니다(Build 대상).
+
+빌드했습니다.
+
+경과 시간: 00:00:02.42
