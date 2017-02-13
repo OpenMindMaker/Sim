@@ -1,3 +1,3 @@
 # Sim
 I want to build a house with a computer
-![applelogo.png]()
+![https://github.com/OpenMindMaker/Sim/blob/master/applelogo.png]()
